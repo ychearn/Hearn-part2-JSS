@@ -27,9 +27,9 @@ console.log(totalputs);
 if (total ===0){
 console.log(`Good game, ${firstName}. Your total par was: 0.`)
 } else if (total < 0){
-console.log(`Great job, ${firstName} Your total par was: -(par)`)
+console.log(`Great job, ${firstName} Your total par was: ${par}.`)
 } else { (total > 0)
-console.log(`Nice try, ${firstname}... Your total par was: +(par)`)
+console.log(`Nice try, ${firstName}... Your total par was: ${par}.`)
 }
 // let holeCount1 = prompt("How many putts for hole 1?");
 // let holeCount2 = prompt("How many putts for hole 2?");
@@ -37,13 +37,3 @@ console.log(`Nice try, ${firstname}... Your total par was: +(par)`)
 // let holeCount4 = prompt("How many putts for hole 4?");
 // let holeCount5 = prompt("How many putts for hole 5?");
 // let holeCount6 = prompt("How many putts for hole 6?");
-
-// console.log(firstName); //log "Hoshi"
-// console.log(holeCount); //log "6"
-// console.log(holeCount1); //log "1"
-// console.log(holeCount2); //log "2"
-// console.log(holeCount3); //log "4"
-// console.log(holeCount4); //log "4"
-// console.log(holeCount5); //log "1"
-// console.log(holeCount6); //log "3"
-// console.log("Good game! Your total par was: -3."Yonrheal
